@@ -75,3 +75,6 @@ ipch/
 .idea/
 *.iml
 *.iws
+
+# MasOS
+.DS_Store
