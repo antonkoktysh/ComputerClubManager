@@ -1,0 +1,77 @@
+# Compiled object files, libraries, and executables.
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.lai
+
+# Debug Symbols & Intermediate Files
+*.pdb
+*.ipdb
+*.pgd
+*.ilk
+*.pch
+*.gch
+
+# Generated Dependency Files
+*.o.d
+*.obj.d
+*.d
+
+# Profiling & Coverage Data
+*.gcno
+*.gcda
+*.gcov
+*.prof
+
+# Build System (CMake).
+/build/
+/build-*/
+/Build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Conan
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+conan.lock
+graph_info.json
+
+# vcpkg
+/vcpkg/
+/vcpkg_installed/
+
+# Runtime Dumps
+core.*
+*.stackdump
+*.dmp
+
+# VS
+.vs/
+.vscode/
+*.sln
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+ipch/
+*.VC.db
+*.ilk
+
+# JetBrains
+.idea/
+*.iml
+*.iws
